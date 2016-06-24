@@ -1,0 +1,20 @@
+{
+  "name": "@types/shopify.d.ts",
+  "version": "1.0.0",
+  "description": "A Typescript/Typings definition for the Shopify frontend wrapper.",
+  "main": "shopify.d.ts",
+  "typings": "shopify.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nozzlegear/shopify.d.ts.git"
+  },
+  "author": "Joshua Harms <joshua@nozzlegear.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nozzlegear/shopify.d.ts/issues"
+  },
+  "homepage": "https://github.com/nozzlegear/shopify.d.ts#readme"
+}

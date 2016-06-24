@@ -1,10 +1,20 @@
-declare module "shopify"
+declare namespace __Shopify
 {
     export type ShopifyCallback = (cart: Cart) => void;
     export type ImageSize = "pico" | "icon" | "thumb" | "compact" | "medium" | "grande" | "1024x1024" | "master";
 
     export interface ShopifyStatic
     {
+        /**
+         * Information about the shop's theme.
+         */
+        theme: Theme;
+
+        /**
+         * The shop's URL.
+         */
+        shop: string;
+
         /**
          * Gets the customer's cart. If a callback is not given, an alert will be shown to the customer stating how many items are in their cart.
          */
@@ -61,6 +71,13 @@ declare module "shopify"
          * @returns The formatted money string.
          */
         formatMoney(amount: number, format?: string): string;
+    }
+
+    export interface Theme
+    {
+        id: number; 
+        name: string; 
+        role: string;
     }
 
     export interface Cart
@@ -162,4 +179,11 @@ declare module "shopify"
         position?: number;
         values?: string[];
     }
+}
+
+declare const Shopify: __Shopify.ShopifyStatic;
+
+declare module "shopify"
+{
+    export = __Shopify;
 }

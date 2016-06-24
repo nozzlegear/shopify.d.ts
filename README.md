@@ -4,9 +4,17 @@ An NPM-installable Typescript declaration for the [Shopify frontend wrapper](htt
 
 ### Installation
 
+For Typescript 1.9+, just install this package via NPM and make sure your tsconfig.json's `moduleResolution` property is not set to `classic`. Typescript will automatically pick up this definition from your node modules folder.
+
 ```bash
 npm install github:nozzlegear/shopify.d.ts#COMMIT --save-dev
 ```
+
+For those on Typescript 1.8 and below, use [Typings](https://github.com/typings/typings) to install this declaration:
+
+```bash
+typings install github:nozzlegear/shopify.d.ts#COMMIT --save-dev
+``` 
 
 ### Usage
 

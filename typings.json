@@ -1,9 +1,9 @@
 {
   "name": "shopify",
   "main": "shopify.d.ts",
+  "version": "1.0.1",
   "author": "Joshua Harms <joshua@nozzlegear.com>",
   "description": "A Typescript/Typings definition for the Shopify frontend wrapper.",
   "ambientDevDependencies": {},
-  "dependencies": {
-  }
+  "dependencies": {}
 }

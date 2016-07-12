@@ -1,5 +1,5 @@
 {
-  "name": "@types/shopify.d.ts",
+  "name": "@types/shopify",
   "version": "1.0.1",
   "description": "A Typescript/Typings definition for the Shopify frontend wrapper.",
   "main": "shopify.d.ts",

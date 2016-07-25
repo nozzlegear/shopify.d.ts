@@ -1,6 +1,6 @@
 {
   "name": "@types/shopify",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Typescript/Typings definition for the Shopify frontend wrapper.",
   "main": "shopify.d.ts",
   "typings": "shopify.d.ts",

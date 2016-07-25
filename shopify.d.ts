@@ -182,8 +182,7 @@ declare namespace __Shopify
 }
 
 declare const Shopify: __Shopify.ShopifyStatic;
-
 declare module "shopify"
 {
-    export = __Shopify;
+    export = Shopify;
 }

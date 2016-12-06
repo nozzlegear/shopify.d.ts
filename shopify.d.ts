@@ -181,11 +181,9 @@ declare namespace __Shopify
     }
 }
 
+declare const Shopify: __Shopify.ShopifyStatic;
+
 declare module "shopify"
 {
     export = __Shopify;
-}
-
-interface Global {
-    Shopify: __Shopify.ShopifyStatic;
 }

@@ -18,7 +18,12 @@ yarn add github:nozzlegear/shopify.d.ts#COMMIT --dev
 The [Shopify frontend wrapper](http://mayert-douglas4935.myshopify.com/pages/api) will automatically load the `Shopify` object into the browser window. Once this declaration is installed, you'll automatically have intellisense and typings for that Shopify object:
 
 ```ts
-//You cna use Shopify in your Typescript module with full type definitions:
+// You can immediately use the Shopify variable in your .ts and .tsx files.
 Shopify.getCart();
+
+// You can also import interfaces used by that Shopify variable
+import { Option, Variant } from "shopify";
+
+const option: Option = ...;
 ...
 ```
